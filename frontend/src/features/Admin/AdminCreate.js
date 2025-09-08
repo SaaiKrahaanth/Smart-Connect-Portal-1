@@ -73,7 +73,7 @@ export default function AdminCreateUser() {
     };
 
     try {
-      const response = await fetch("http://localhost:4000/admin", {
+      const response = await fetch("http://localhost:5500/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newUser)

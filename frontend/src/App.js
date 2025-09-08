@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AppProvider } from "./context/AppContext";
 
+
 import Landing from "./pages/Landing";
 import Login from "./components/auth/Login";
 import ForgotPassword from "./components/auth/ForgotPassword";
